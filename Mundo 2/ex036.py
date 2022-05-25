@@ -5,7 +5,7 @@
 casa = float(input('Valor da casa: R$'))
 salario = float(input('Valor do salario: R$'))
 anos = float(input('Numero de prestações: R$'))
-mensal = casa / (anos *12)
+mensal = casa / (anos * 12)
 print("O valor da casa de R${:.2f}, em {:.0f} anos,\n a prestação mensal sera de R${:.2f}".format(casa, anos, mensal))
 if mensal < salario * 0.3:
     print("Emprestimo concendido!")
